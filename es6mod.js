@@ -9,3 +9,6 @@ console.log('sum ===', sum);
 // grazina tu argumentu dalyba
 // jei antras argumentas 0 grazina texta 'dalinti is 0 negalima'
 // panaudojam funkcija es6mod.js faile
+
+import { divide } from './divide.js';
+console.log(divide(20, 2));
